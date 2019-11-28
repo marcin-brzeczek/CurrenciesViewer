@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.currency_item.view.*
 import mbitsystem.com.currenciesviewer.R
 import mbitsystem.com.currenciesviewer.data.model.Currency
-import mbitsystem.com.currenciesviewer.utils.KEY_INTENT_CURRENCY
 import org.jetbrains.anko.sdk27.coroutines.onClick
 
 class MainAdapter : ListAdapter<Currency, MainAdapter.FileHolder>(DiffCallback()) {
