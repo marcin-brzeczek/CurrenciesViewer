@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CurrenciesViewer</string>
+    <string name="error_load_data">Data loading error: </string>
+    <string name="newest">newest</string>
+    <string name="oldest">oldest</string>
+    <string name="sort_by_name_ascending">Sort by name ascending</string>
+    <string name="sort_by_name_desceding">Sort by name desceding</string>
+    <string name="sample_body">This is sample body</string>
+    <string name="sample_name">Currency Name</string>
+    <string name="file_image">currency image</string>
+    <string name="asceding">ascending</string>
+    <string name="desceding">desceding</string>
+    <string name="text_format">text/plain</string>
+    <string name="filter_name">Filter</string>
+</resources>

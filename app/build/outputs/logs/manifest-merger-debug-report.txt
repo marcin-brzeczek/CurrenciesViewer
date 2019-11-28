@@ -1,0 +1,317 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.dagger:dagger-android-support:2.17] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-dagger-android-support-2.17.aar/39120761eddd83a68d8c8324560924ef/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/f958a5088847c741592bd8f8438aa543/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/183cbbee4d37bdf95af28efe11281c13/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/43791f926e0949271c0e789d6ef8e534/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/adb3ec35218ad33813a644abb3cd8368/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-appcompatV7-base-0.10.8.aar/414a519cb6c40ca48a2be07060daafb1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0-alpha02] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha02.aar/8dd0d917697c90e4042a6b798e6aa8c0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/850fcd75577af99cd5422fe291f0726b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.2.0-alpha01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-ktx-1.2.0-alpha01.aar/31d3d5e071954f1ceab972621191b982/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/61fd3d7e0552eb464da8f697578a0e2c/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.room:room-rxjava2:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-rxjava2-2.1.0-alpha03.aar/959d96fabbbdc36f0f017b6705be04eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.rxbinding3:rxbinding:3.0.0-alpha2] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/rxbinding-3.0.0-alpha2.aar/d097fd33d04166a18497533f3b6cee08/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-android-pdf-viewer-2.8.2.aar/0f65e0582a05f010e918bf239bb73022/AndroidManifest.xml:2:1-11:12
+MERGED from [nz.bradcampbell:paperparcel:2.0.6] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-paperparcel-2.0.6.aar/fd86632c1cc044f14be21fd884bf95e4/AndroidManifest.xml:2:1-8:12
+MERGED from [nz.bradcampbell:paperparcel-kotlin:2.0.6] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/paperparcel-kotlin-2.0.6.aar/166db5c572cca2fdb06b59474f992c8e/AndroidManifest.xml:2:1-8:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/76fa8986b911f43bb83db9a01ff23f1c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.dagger:dagger-android:2.17] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-dagger-android-2.17.aar/7e2e14907344f5569f4892ab84c9478f/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/01b8750aadf444b872c2bc1dd1b47a3d/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/a9abc43f19f582ad9826a4600ca2d191/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/2c09fb3f131fb60864d0d3094e89643d/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/caa11c3ac024f759e85c82df5862e1a6/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/3a5cc6eb09e3c4ca553d39d5d2da2848/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d41c310227baa317a7af2f76b4af2fa8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de2951d4f05bc48d3d100a2b7f08851e/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/sqlite-base-0.10.8.aar/59b7d98f18619d1e43357a9708fe61a9/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/platform-base-0.10.8.aar/6967dab6afc049da2e248f04e1c72fec/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-supportV4-base-0.10.8.aar/00c8e079c4e60f72088663359ce69a7e/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-commons-base-0.10.8.aar/7e8c8da7c4b6f986bb39343696c0f6fb/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/55ba37ce9a3272928bd47ce6cd1c6e88/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-pdfium-android-1.7.1.aar/f5e13025b457db55797dfb1b4acd9457/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/44d594138210a5e1908caf2cba7a4719/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/be544340cfce234addcc8a589531a030/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/c2c2dcfc2fced8646b6879642776ddc0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/5ce237c2b93ee9c86a53fcf0944cd935/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/da3a11b58cb7fe3a690c6d46311cf17d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/fe350d5969201f164495a15c57893b3f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/653b28a468505abe2c81301ea73ea212/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/ff340aa3487bdb8c952b47f1ea2a4d91/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/2c9fc00799858e53df722f5d177428d6/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/f69eb13face9fb73707cfb7a696e277b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/615e8e43c66074ca18bca444b9bb7f5e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/0e0bc3034476ce4027f246fb9b7950a2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/d43bfebe0caaa3f0fcd08c850c15da62/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/908f66193066b219b5d1e3c9965e6295/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/ccb6d2620d7755cfddb838cb990ebe04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/4f19c1cdc46bf56bb2dc51664154eb99/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/5ee95e91e4fa549f2adc815e4a33c881/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/2ace98ccbb38e51d22e9b3fe478973ee/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/343bf80dfe1912b2d7678a4eab9a43b0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/08fa9bcb7fd83513efe315f969012bf3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0-alpha01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-1.2.0-alpha01.aar/e4a95bad6a02f74cce683e6713935d64/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/012715d949bc29618afd57e3289604f5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/a5f2dea367c3e13f12d7c047dd81db23/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a7147781b6caccabccb5382640b1a5a6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/788f642c06ba8e5a0616e6fd992d389d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-beta01.aar/257ad601fccce9ebd563d6e3cd3ef2a7/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/167dbf4f1c6b0104e8339b35fc2b6b68/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/11b7e852e4d0a6df720bbf6e108118c2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/6a22e212f9c80736c86ef1b32d0f89a7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/2f922cf787ce9248273f4e397523601a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0.aar/74b3b28a3c51f070addb1cbe42c09bad/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0.aar/f3c75236ca182d3c106bd4b7c26ca5a2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/e47e74e6b3cbde4597bb4aa990a5dc02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/8c82d842e4b9d860a3d0b9ab0d2d2001/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/123fce9018e3d0d78bec0209be245594/AndroidManifest.xml:17:1-24:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/11b4c0783e42f09a4c828ac21385327f/AndroidManifest.xml:15:1-20:12
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:3:11-52
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/f958a5088847c741592bd8f8438aa543/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/f958a5088847c741592bd8f8438aa543/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/183cbbee4d37bdf95af28efe11281c13/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/183cbbee4d37bdf95af28efe11281c13/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/43791f926e0949271c0e789d6ef8e534/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/43791f926e0949271c0e789d6ef8e534/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/adb3ec35218ad33813a644abb3cd8368/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/adb3ec35218ad33813a644abb3cd8368/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha02] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha02.aar/8dd0d917697c90e4042a6b798e6aa8c0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha02] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha02.aar/8dd0d917697c90e4042a6b798e6aa8c0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/61fd3d7e0552eb464da8f697578a0e2c/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/61fd3d7e0552eb464da8f697578a0e2c/AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/76fa8986b911f43bb83db9a01ff23f1c/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/76fa8986b911f43bb83db9a01ff23f1c/AndroidManifest.xml:7:5-20
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/01b8750aadf444b872c2bc1dd1b47a3d/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/01b8750aadf444b872c2bc1dd1b47a3d/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/a9abc43f19f582ad9826a4600ca2d191/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/a9abc43f19f582ad9826a4600ca2d191/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/2c09fb3f131fb60864d0d3094e89643d/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/2c09fb3f131fb60864d0d3094e89643d/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/caa11c3ac024f759e85c82df5862e1a6/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/caa11c3ac024f759e85c82df5862e1a6/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/3a5cc6eb09e3c4ca553d39d5d2da2848/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/3a5cc6eb09e3c4ca553d39d5d2da2848/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d41c310227baa317a7af2f76b4af2fa8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d41c310227baa317a7af2f76b4af2fa8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de2951d4f05bc48d3d100a2b7f08851e/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de2951d4f05bc48d3d100a2b7f08851e/AndroidManifest.xml:11:5-20
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/2c9fc00799858e53df722f5d177428d6/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/2c9fc00799858e53df722f5d177428d6/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0-alpha01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-1.2.0-alpha01.aar/e4a95bad6a02f74cce683e6713935d64/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.2.0-alpha01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-1.2.0-alpha01.aar/e4a95bad6a02f74cce683e6713935d64/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-beta01.aar/257ad601fccce9ebd563d6e3cd3ef2a7/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-beta01.aar/257ad601fccce9ebd563d6e3cd3ef2a7/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0-alpha01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-1.2.0-alpha01.aar/e4a95bad6a02f74cce683e6713935d64/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:14:13-39
+	android:label
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:12:13-45
+	android:roundIcon
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:13:13-58
+	android:icon
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:10:13-52
+	android:allowBackup
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:9:13-39
+	android:theme
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:15:13-44
+	android:networkSecurityConfig
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:11:13-73
+	android:name
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:8:13-67
+activity#mbitsystem.com.currenciesviewer.main.MainActivity
+ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:17:19-83
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:19:17-68
+	android:name
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:21:27-74
+activity#mbitsystem.com.currenciesviewer.base.BaseActivity
+ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:24:9-85
+	android:name
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml:24:19-83
+uses-sdk
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+MERGED from [com.google.dagger:dagger-android-support:2.17] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-dagger-android-support-2.17.aar/39120761eddd83a68d8c8324560924ef/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.17] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-dagger-android-support-2.17.aar/39120761eddd83a68d8c8324560924ef/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/f958a5088847c741592bd8f8438aa543/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/f958a5088847c741592bd8f8438aa543/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/183cbbee4d37bdf95af28efe11281c13/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/183cbbee4d37bdf95af28efe11281c13/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/43791f926e0949271c0e789d6ef8e534/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/43791f926e0949271c0e789d6ef8e534/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/adb3ec35218ad33813a644abb3cd8368/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/adb3ec35218ad33813a644abb3cd8368/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-appcompatV7-base-0.10.8.aar/414a519cb6c40ca48a2be07060daafb1/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-appcompatV7-base-0.10.8.aar/414a519cb6c40ca48a2be07060daafb1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0-alpha02] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha02.aar/8dd0d917697c90e4042a6b798e6aa8c0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha02] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha02.aar/8dd0d917697c90e4042a6b798e6aa8c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/850fcd75577af99cd5422fe291f0726b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/850fcd75577af99cd5422fe291f0726b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.2.0-alpha01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-ktx-1.2.0-alpha01.aar/31d3d5e071954f1ceab972621191b982/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.2.0-alpha01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-ktx-1.2.0-alpha01.aar/31d3d5e071954f1ceab972621191b982/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/61fd3d7e0552eb464da8f697578a0e2c/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/61fd3d7e0552eb464da8f697578a0e2c/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-rxjava2:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-rxjava2-2.1.0-alpha03.aar/959d96fabbbdc36f0f017b6705be04eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-rxjava2:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-rxjava2-2.1.0-alpha03.aar/959d96fabbbdc36f0f017b6705be04eb/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.rxbinding3:rxbinding:3.0.0-alpha2] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/rxbinding-3.0.0-alpha2.aar/d097fd33d04166a18497533f3b6cee08/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.rxbinding3:rxbinding:3.0.0-alpha2] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/rxbinding-3.0.0-alpha2.aar/d097fd33d04166a18497533f3b6cee08/AndroidManifest.xml:5:5-44
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-android-pdf-viewer-2.8.2.aar/0f65e0582a05f010e918bf239bb73022/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-android-pdf-viewer-2.8.2.aar/0f65e0582a05f010e918bf239bb73022/AndroidManifest.xml:7:5-9:41
+MERGED from [nz.bradcampbell:paperparcel:2.0.6] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-paperparcel-2.0.6.aar/fd86632c1cc044f14be21fd884bf95e4/AndroidManifest.xml:6:5-43
+MERGED from [nz.bradcampbell:paperparcel:2.0.6] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-paperparcel-2.0.6.aar/fd86632c1cc044f14be21fd884bf95e4/AndroidManifest.xml:6:5-43
+MERGED from [nz.bradcampbell:paperparcel-kotlin:2.0.6] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/paperparcel-kotlin-2.0.6.aar/166db5c572cca2fdb06b59474f992c8e/AndroidManifest.xml:6:5-43
+MERGED from [nz.bradcampbell:paperparcel-kotlin:2.0.6] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/paperparcel-kotlin-2.0.6.aar/166db5c572cca2fdb06b59474f992c8e/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/76fa8986b911f43bb83db9a01ff23f1c/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/76fa8986b911f43bb83db9a01ff23f1c/AndroidManifest.xml:5:5-43
+MERGED from [com.google.dagger:dagger-android:2.17] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-dagger-android-2.17.aar/7e2e14907344f5569f4892ab84c9478f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.17] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-dagger-android-2.17.aar/7e2e14907344f5569f4892ab84c9478f/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/01b8750aadf444b872c2bc1dd1b47a3d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/01b8750aadf444b872c2bc1dd1b47a3d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/a9abc43f19f582ad9826a4600ca2d191/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/a9abc43f19f582ad9826a4600ca2d191/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/2c09fb3f131fb60864d0d3094e89643d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/2c09fb3f131fb60864d0d3094e89643d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/caa11c3ac024f759e85c82df5862e1a6/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/caa11c3ac024f759e85c82df5862e1a6/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/3a5cc6eb09e3c4ca553d39d5d2da2848/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/3a5cc6eb09e3c4ca553d39d5d2da2848/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d41c310227baa317a7af2f76b4af2fa8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d41c310227baa317a7af2f76b4af2fa8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de2951d4f05bc48d3d100a2b7f08851e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de2951d4f05bc48d3d100a2b7f08851e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/sqlite-base-0.10.8.aar/59b7d98f18619d1e43357a9708fe61a9/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/sqlite-base-0.10.8.aar/59b7d98f18619d1e43357a9708fe61a9/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/platform-base-0.10.8.aar/6967dab6afc049da2e248f04e1c72fec/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/platform-base-0.10.8.aar/6967dab6afc049da2e248f04e1c72fec/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-supportV4-base-0.10.8.aar/00c8e079c4e60f72088663359ce69a7e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-supportV4-base-0.10.8.aar/00c8e079c4e60f72088663359ce69a7e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-commons-base-0.10.8.aar/7e8c8da7c4b6f986bb39343696c0f6fb/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-commons-base-0.10.8.aar/7e8c8da7c4b6f986bb39343696c0f6fb/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/55ba37ce9a3272928bd47ce6cd1c6e88/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/55ba37ce9a3272928bd47ce6cd1c6e88/AndroidManifest.xml:20:5-44
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-pdfium-android-1.7.1.aar/f5e13025b457db55797dfb1b4acd9457/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/jetified-pdfium-android-1.7.1.aar/f5e13025b457db55797dfb1b4acd9457/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/44d594138210a5e1908caf2cba7a4719/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/44d594138210a5e1908caf2cba7a4719/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/be544340cfce234addcc8a589531a030/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/be544340cfce234addcc8a589531a030/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/c2c2dcfc2fced8646b6879642776ddc0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/c2c2dcfc2fced8646b6879642776ddc0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/5ce237c2b93ee9c86a53fcf0944cd935/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/5ce237c2b93ee9c86a53fcf0944cd935/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/da3a11b58cb7fe3a690c6d46311cf17d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/da3a11b58cb7fe3a690c6d46311cf17d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/fe350d5969201f164495a15c57893b3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/fe350d5969201f164495a15c57893b3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/653b28a468505abe2c81301ea73ea212/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/653b28a468505abe2c81301ea73ea212/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/ff340aa3487bdb8c952b47f1ea2a4d91/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/ff340aa3487bdb8c952b47f1ea2a4d91/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/2c9fc00799858e53df722f5d177428d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/2c9fc00799858e53df722f5d177428d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/f69eb13face9fb73707cfb7a696e277b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/f69eb13face9fb73707cfb7a696e277b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/615e8e43c66074ca18bca444b9bb7f5e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/615e8e43c66074ca18bca444b9bb7f5e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/0e0bc3034476ce4027f246fb9b7950a2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/0e0bc3034476ce4027f246fb9b7950a2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/d43bfebe0caaa3f0fcd08c850c15da62/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/d43bfebe0caaa3f0fcd08c850c15da62/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/908f66193066b219b5d1e3c9965e6295/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/908f66193066b219b5d1e3c9965e6295/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/ccb6d2620d7755cfddb838cb990ebe04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/ccb6d2620d7755cfddb838cb990ebe04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/4f19c1cdc46bf56bb2dc51664154eb99/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/4f19c1cdc46bf56bb2dc51664154eb99/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/5ee95e91e4fa549f2adc815e4a33c881/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/5ee95e91e4fa549f2adc815e4a33c881/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/2ace98ccbb38e51d22e9b3fe478973ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/2ace98ccbb38e51d22e9b3fe478973ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/343bf80dfe1912b2d7678a4eab9a43b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/343bf80dfe1912b2d7678a4eab9a43b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/08fa9bcb7fd83513efe315f969012bf3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/08fa9bcb7fd83513efe315f969012bf3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0-alpha01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-1.2.0-alpha01.aar/e4a95bad6a02f74cce683e6713935d64/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0-alpha01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-1.2.0-alpha01.aar/e4a95bad6a02f74cce683e6713935d64/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/012715d949bc29618afd57e3289604f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/012715d949bc29618afd57e3289604f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/a5f2dea367c3e13f12d7c047dd81db23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/a5f2dea367c3e13f12d7c047dd81db23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a7147781b6caccabccb5382640b1a5a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a7147781b6caccabccb5382640b1a5a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/788f642c06ba8e5a0616e6fd992d389d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/788f642c06ba8e5a0616e6fd992d389d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-beta01.aar/257ad601fccce9ebd563d6e3cd3ef2a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-beta01.aar/257ad601fccce9ebd563d6e3cd3ef2a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/167dbf4f1c6b0104e8339b35fc2b6b68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/167dbf4f1c6b0104e8339b35fc2b6b68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/11b7e852e4d0a6df720bbf6e108118c2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/11b7e852e4d0a6df720bbf6e108118c2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/6a22e212f9c80736c86ef1b32d0f89a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/6a22e212f9c80736c86ef1b32d0f89a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/2f922cf787ce9248273f4e397523601a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/2f922cf787ce9248273f4e397523601a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0.aar/74b3b28a3c51f070addb1cbe42c09bad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0.aar/74b3b28a3c51f070addb1cbe42c09bad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0.aar/f3c75236ca182d3c106bd4b7c26ca5a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0.aar/f3c75236ca182d3c106bd4b7c26ca5a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/e47e74e6b3cbde4597bb4aa990a5dc02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/e47e74e6b3cbde4597bb4aa990a5dc02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/8c82d842e4b9d860a3d0b9ab0d2d2001/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/8c82d842e4b9d860a3d0b9ab0d2d2001/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/123fce9018e3d0d78bec0209be245594/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/123fce9018e3d0d78bec0209be245594/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/11b4c0783e42f09a4c828ac21385327f/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/11b4c0783e42f09a4c828ac21385327f/AndroidManifest.xml:18:5-43
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcinbrzeczek/StudioProjects/CurrenciesViewer/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/2c9fc00799858e53df722f5d177428d6/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/2c9fc00799858e53df722f5d177428d6/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/marcinbrzeczek/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/2c9fc00799858e53df722f5d177428d6/AndroidManifest.xml:24:13-74
