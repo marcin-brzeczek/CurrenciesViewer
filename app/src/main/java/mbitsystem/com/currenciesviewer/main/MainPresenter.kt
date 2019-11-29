@@ -5,12 +5,13 @@ import mbitsystem.com.currenciesviewer.data.CurrencyInteractor
 import mbitsystem.com.currenciesviewer.state.CurrencyState
 import mbitsystem.com.currenciesviewer.utils.SchedulerProvider
 import timber.log.Timber
+import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
 class MainPresenter @Inject constructor(
     val currencyInteractor: CurrencyInteractor,
     val schedulerProvider: SchedulerProvider
-    ) : IMainPresenter {
+) : IMainPresenter {
 
     lateinit var view: MainView
     private val compositeDisposable = CompositeDisposable()
@@ -22,12 +23,14 @@ class MainPresenter @Inject constructor(
 
     override fun unbind() {
         if (!compositeDisposable.isDisposed) {
-            compositeDisposable.dispose()
+            compositeDisposable.clear()
         }
     }
 
     override fun displayCurrencies() = view.getFilesIntent()
-        .doOnNext { Timber.d("Intent: Display Curriences" ) }
+        .doOnNext { Timber.d("Intent: Display Curriences") }
+        .delay(1, TimeUnit.SECONDS)
+        .repeat()
         .flatMap<CurrencyState> { currencyInteractor.getCurrencies() }
         .startWith(CurrencyState.LoadingState)
         .subscribeOn(schedulerProvider.ioScheduler())

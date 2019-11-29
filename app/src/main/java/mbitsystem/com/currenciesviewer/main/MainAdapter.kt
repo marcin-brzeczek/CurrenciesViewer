@@ -23,8 +23,8 @@ class MainAdapter : ListAdapter<Currency, MainAdapter.CurrencyHolder>(DiffCallba
 
     inner class CurrencyHolder(val view: View) : RecyclerView.ViewHolder(view) {
         fun bind(currency: Currency) = with(view) {
-            title.text = currency.name
-            body.text = currency.value.toString()
+            name.text = currency.name
+            value.setText(currency.value.toString())
             view.onClick {
 //                with(context) {
 //                    startActivity(intentFor<DetailsActivity>(KEY_INTENT_CURRENCY to currency))

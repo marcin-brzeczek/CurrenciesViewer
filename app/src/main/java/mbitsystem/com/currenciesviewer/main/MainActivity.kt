@@ -32,6 +32,10 @@ class MainActivity : BaseActivity(), MainView {
 
         recycler_view.adapter = MainAdapter()
         recycler_view.layoutManager = LinearLayoutManager(this)
+    }
+
+    override fun onResume() {
+        super.onResume()
         presenter.bind(this)
     }
 
@@ -55,9 +59,8 @@ class MainActivity : BaseActivity(), MainView {
         Timber.e("Error loading data: $it")
     }
 
-
-    override fun onStop() {
-        super.onStop()
+    override fun onPause() {
+        super.onPause()
         presenter.unbind()
     }
 }
