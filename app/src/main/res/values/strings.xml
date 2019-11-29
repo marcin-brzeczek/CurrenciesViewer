@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">CurrenciesViewer</string>
-    <string name="error_load_data">Data loading error: </string>
+    <string name="error_load_data">Error loading data: </string>
     <string name="newest">newest</string>
     <string name="oldest">oldest</string>
     <string name="sort_by_name_ascending">Sort by name ascending</string>

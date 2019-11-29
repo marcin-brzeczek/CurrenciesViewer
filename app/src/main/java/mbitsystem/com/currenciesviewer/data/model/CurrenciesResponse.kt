@@ -8,5 +8,5 @@ data class CurrenciesResponse(
     @JsonProperty("date")
     val date: String,
     @JsonProperty("rates")
-    val rates: ArrayList<Currency>
+    val rates: Rates
 )

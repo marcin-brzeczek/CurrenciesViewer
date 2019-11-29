@@ -52,6 +52,7 @@ class MainActivity : BaseActivity(), MainView {
 
     private fun renderErrorState(error: String?) = error?.let {
         longToast(getString(R.string.error_load_data) + it)
+        Timber.e("Error loading data: $it")
     }
 
 
