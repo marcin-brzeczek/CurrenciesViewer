@@ -17,6 +17,8 @@ class MainActivity : BaseActivity(), MainView {
     @Inject
     lateinit var presenter: MainPresenter
 
+    private var listSubmited = true
+
     override fun render(state: CurrencyState) {
         Timber.d("State: ${state.javaClass.simpleName}")
         when (state) {
@@ -50,7 +52,12 @@ class MainActivity : BaseActivity(), MainView {
         progress_bar.visibility = View.GONE
         recycler_view.apply {
             isEnabled = true
-            (adapter as MainAdapter).submitList(dataState.data)
+
+            if (listSubmited) {
+                (adapter as MainAdapter).submitList(dataState.data)
+                listSubmited = false
+            }
+            (adapter as MainAdapter).intentFilterAscendingPublisher.onNext(dataState.data!!)
         }
     }
 
