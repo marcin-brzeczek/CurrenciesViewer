@@ -31,8 +31,7 @@ class MainActivity : BaseActivity(), MainView {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        recycler_view.adapter = MainAdapter()
+        recycler_view.adapter = MainAdapter(recycler_view)
         recycler_view.layoutManager = LinearLayoutManager(this)
     }
 
@@ -54,7 +53,7 @@ class MainActivity : BaseActivity(), MainView {
             isEnabled = true
 
             if (listSubmited) {
-                (adapter as MainAdapter).submitList(dataState.data)
+                (adapter as MainAdapter).addItems(dataState.data)
                 listSubmited = false
             }
             (adapter as MainAdapter).intentFilterAscendingPublisher.onNext(dataState.data!!)
