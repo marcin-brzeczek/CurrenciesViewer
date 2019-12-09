@@ -1,9 +1,10 @@
 package mbitsystem.com.currenciesviewer.main
 
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -14,11 +15,14 @@ import mbitsystem.com.currenciesviewer.R
 import mbitsystem.com.currenciesviewer.data.model.Currency
 import timber.log.Timber
 
-class MainAdapter(private val recyclerView: RecyclerView? = null) : RecyclerView.Adapter<MainAdapter.CurrencyHolder>() {
+class MainAdapter(private val recyclerView: RecyclerView? = null) :
+    RecyclerView.Adapter<MainAdapter.CurrencyHolder>() {
 
     private val compositeDisposable = CompositeDisposable()
 
     private val items: MutableList<Currency> = mutableListOf()
+
+    private var euroValue = 1.0
 
     override fun getItemCount() = items.size
 
@@ -53,8 +57,9 @@ class MainAdapter(private val recyclerView: RecyclerView? = null) : RecyclerView
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe {
                 it.forEach {
-                    if (it.name == view.name.text) {
-                        view.value.setText(it.value.toString())
+                    if (it.name == view.name.text && !view.value.hasFocus()) {
+                        val calculatedValue = it.value * euroValue
+                        view.value.setText(calculatedValue.toString())
                     }
                 }
             }
@@ -63,7 +68,35 @@ class MainAdapter(private val recyclerView: RecyclerView? = null) : RecyclerView
             val currency = items[position]
             name.text = currency.name
             value.setText(currency.value.toString())
+            value.addTextChangedListener(geValueTextWatcher(currency.name))
             view.setOnClickListener(moveToTop())
+        }
+
+        private fun geValueTextWatcher(currencyName: String) = object : TextWatcher {
+            override fun afterTextChanged(s: Editable?) = Unit
+            override fun beforeTextChanged(
+                s: CharSequence?,
+                start: Int,
+                count: Int,
+                after: Int
+            ) = Unit
+
+            override fun onTextChanged(
+                s: CharSequence?,
+                start: Int,
+                count: Int,
+                after: Int
+            ) {
+                val currency = items.find { it.name == currencyName }
+                currency?.let {
+                    val valueForOneEur = it.value
+                    //todo handle parse exception (empty string, dot, etc...)
+                    val updatedValue = s?.toString()?.toDouble()
+                    updatedValue?.let {
+                        euroValue = (updatedValue / valueForOneEur)
+                    }
+                }
+            }
         }
 
         private fun moveToTop(): (View) -> Unit = {
@@ -73,17 +106,8 @@ class MainAdapter(private val recyclerView: RecyclerView? = null) : RecyclerView
                 }
                 notifyItemMoved(currentPosition, 0)
                 recyclerView?.scrollToPosition(0)
+                view.value.requestFocus()
             }
         }
     }
-}
-
-
-class DiffCallback : DiffUtil.ItemCallback<Currency>() {
-    override fun areItemsTheSame(oldItem: Currency, newItem: Currency): Boolean =
-        oldItem.name == newItem.name && oldItem.value == newItem.value
-
-    override fun areContentsTheSame(oldItem: Currency, newItem: Currency): Boolean =
-        oldItem.name == newItem.name
-                && oldItem.value == newItem.value
 }
