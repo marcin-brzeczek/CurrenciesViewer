@@ -8,7 +8,6 @@ import mbitsystem.com.currenciesviewer.injection.AppModule
 import mbitsystem.com.currenciesviewer.injection.DaggerAppComponent
 import timber.log.Timber
 
-//const val apiUrl: String = "https://jsonplaceholder.typicode.com"
 const val apiUrl: String = "https://revolut.duckdns.org"
 
 class InitApp : DaggerApplication(), HasActivityInjector {

@@ -1,18 +1,26 @@
 package mbitsystem.com.postsviewer
 
+import io.reactivex.Observable
+import io.reactivex.observers.TestObserver
 import io.reactivex.schedulers.TestScheduler
 import mbitsystem.com.currenciesviewer.data.CurrencyInteractor
+import mbitsystem.com.currenciesviewer.data.model.CurrenciesResponse
 import mbitsystem.com.currenciesviewer.data.model.Currency
+import mbitsystem.com.currenciesviewer.data.model.Rates
 import mbitsystem.com.currenciesviewer.data.network.CurrenciesApi
 import mbitsystem.com.currenciesviewer.main.MainPresenter
 import mbitsystem.com.currenciesviewer.main.MainView
 import mbitsystem.com.currenciesviewer.state.CurrencyState
 import mbitsystem.com.postsviewer.testutil.TestSchedulerProvider
+import org.hamcrest.CoreMatchers.`is`
+import org.hamcrest.MatcherAssert.assertThat
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.Mock
+import org.mockito.Mockito
+import org.mockito.Mockito.verify
 import org.mockito.junit.MockitoJUnitRunner
 
 @RunWith(MockitoJUnitRunner::class)
@@ -46,60 +54,61 @@ class CurrencyInteractorTest : BaseTest() {
     @Test
     fun `test observer when get posts`() {
 
-//        //Given
-//        val posts = dummyCurrencies
-//
-//        //When
-//        Mockito.`when`(currenciesApi.getCurrenciesByBase()).thenReturn(Observable.just(posts))
-//        val result = underTest.getPosts()
-//
-//        val testObserver = TestObserver<CurrencyState>()
-//        result.subscribe(testObserver)
-//        testObserver.assertComplete()
-//        testObserver.assertNoErrors()
-//        testObserver.assertValueCount(1)
-//        val fileState = testObserver.values()[0] as CurrencyState.DataState
-//        val resultList = fileState.data
-//
-//        // Then
-//        assertThat(resultList.size, `is`(4))
-//        assertThat(resultList[0].title, `is`("urlPath"))
-//        assertThat(resultList[1].title, `is`("PosterPath2"))
+        //Given
+        val curriences = dummyCurrencies
+
+        //When
+        Mockito.`when`(currenciesApi.getCurrenciesForEUR()).thenReturn(Observable.just(curriences))
+        val result = underTest.getCurrencies()
+
+
+        val testObserver = TestObserver<CurrencyState>()
+        result.subscribe(testObserver)
+        testObserver.assertComplete()
+        testObserver.assertNoErrors()
+        testObserver.assertValueCount(1)
+        val fileState = testObserver.values()[0] as CurrencyState.DataState
+        val resultList = fileState.data
+
+        // Then
+        assertThat(resultList?.size, `is`(4))
+        assertThat(resultList?.get(0)?.name, `is`("AUD"))
+        assertThat(resultList?.get(1)?.value, `is`(1.9645))
     }
 
     @Test
-    fun `verify view when get post`() {
+    fun `verify view when get curriencies`() {
 
-//        //Given
-//        val posts = dummyCurrencies
-//
-//        //When
-//        Mockito.`when`(currenciesApi.getCurrenciesByBase()).thenReturn(Observable.just(posts))
-//        testGetPosts()
-//        testScheduler.triggerActions()
-//
-//        // Then
-//        verify(mainView).render(CurrencyState.LoadingState)
-//        verify(mainView).render(CurrencyState.DataState(posts))
+        //Given
+        val currenciesResponse = dummyCurrencies
+
+        //When
+        Mockito.`when`(currenciesApi.getCurrenciesForEUR()).thenReturn(Observable.just(currenciesResponse))
+        testGetCurrencies()
+        testScheduler.triggerActions()
+
+        // Then
+        verify(mainView).render(CurrencyState.LoadingState)
+        verify(mainView).render(CurrencyState.DataState(currenciesResponse.rates.currencies))
     }
 
     @Test
     fun `verify view when error get post`() {
 
         //Given
-//        val testError ="error"
-//        val observable : Observable<List<Post>> = Observable.create{
-//            emitter ->  emitter.onError(Exception(testError))
-//        }
-//
-//        //When
-//        Mockito.`when`(currenciesApi.getCurrenciesByBase()).thenReturn(observable)
-//        testGetPosts()
-//        testScheduler.triggerActions()
-//
-//        // Then
-//        verify(mainView).render(CurrencyState.LoadingState)
-//        verify(mainView).render(CurrencyState.ErrorState(testError))
+        val testError ="error"
+        val observable : Observable<CurrenciesResponse> = Observable.create{
+            emitter ->  emitter.onError(Exception(testError))
+        }
+
+        //When
+        Mockito.`when`(currenciesApi.getCurrenciesForEUR()).thenReturn(observable)
+        testGetCurrencies()
+        testScheduler.triggerActions()
+
+        // Then
+        verify(mainView).render(CurrencyState.LoadingState)
+        verify(mainView).render(CurrencyState.ErrorState(testError))
     }
 
     private fun testGetCurrencies() {
@@ -110,13 +119,20 @@ class CurrencyInteractorTest : BaseTest() {
             .subscribe { mainView.render(it) }
     }
 
-    private val dummyCurrencies: ArrayList<Currency>
+    private val dummyCurrencies: CurrenciesResponse
         get() {
-            val dummyCurrencies = ArrayList<Currency>()
-            dummyCurrencies.add(Currency("AUD", 1.6236))
-            dummyCurrencies.add(Currency("BGN", 1.9645))
-            dummyCurrencies.add(Currency("BRL", 4.8132))
-            dummyCurrencies.add(Currency("CAD", 1.5407))
+            val dummyCurrencies = CurrenciesResponse(
+                base = "EUR",
+                date = "2018-09-06",
+                rates = Rates(
+                    listOf(
+                        Currency("AUD", 1.6236),
+                        Currency("BGN", 1.9645),
+                        Currency("BRL", 4.8132),
+                        Currency("CAD", 1.5407)
+                    )
+                )
+            )
             return dummyCurrencies
         }
 }

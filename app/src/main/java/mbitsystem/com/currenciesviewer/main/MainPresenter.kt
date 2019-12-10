@@ -27,7 +27,7 @@ class MainPresenter @Inject constructor(
         }
     }
 
-    override fun displayCurrencies() = view.getFilesIntent()
+    override fun displayCurrencies() = view.getCurrienciesIntent()
         .doOnNext { Timber.d("Intent: Display Curriences") }
         .delay(1, TimeUnit.SECONDS)
         .repeat()

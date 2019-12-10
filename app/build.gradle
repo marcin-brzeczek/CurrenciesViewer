@@ -22,6 +22,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 dependencies {
@@ -37,31 +42,16 @@ dependencies {
     androidTestImplementation "androidx.test:runner:$test_runner_version"
     testImplementation "org.mockito:mockito-core:$mockito_version"
 
-    //Room Components
-    implementation "androidx.room:room-rxjava2:$roomVersion"
-    kapt "androidx.room:room-compiler:$roomVersion"
-
-    //Gson
-    implementation "com.google.code.gson:gson:$gson_version"
-
     //Jackson
     implementation "com.fasterxml.jackson.module:jackson-module-kotlin:$jackson_version"
 
     //Retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     implementation "com.squareup.retrofit2:converter-jackson:$retrofit_version"
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2+'
-
-    //Anko
-    implementation "org.jetbrains.anko:anko:$ankoVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
 
     //Rx
     implementation "com.jakewharton.rxbinding3:rxbinding:$rxbinding_version"
-
-    //Paper parcel
-    implementation "nz.bradcampbell:paperparcel:$paperparcel_version"
-    implementation "nz.bradcampbell:paperparcel-kotlin:$paperparcel_version"
-    kapt "nz.bradcampbell:paperparcel-compiler:$paperparcel_version"
 
     //Timber
     implementation "com.jakewharton.timber:timber:$timber_version"

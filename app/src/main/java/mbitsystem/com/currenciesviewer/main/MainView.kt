@@ -5,5 +5,5 @@ import mbitsystem.com.currenciesviewer.state.CurrencyState
 
 interface MainView {
     fun render(state: CurrencyState)
-    fun getFilesIntent(): Observable<Unit>
+    fun getCurrienciesIntent(): Observable<Unit>
 }

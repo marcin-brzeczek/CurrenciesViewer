@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import mbitsystem.com.currenciesviewer.R
 import mbitsystem.com.currenciesviewer.base.BaseActivity
 import mbitsystem.com.currenciesviewer.state.CurrencyState
-import org.jetbrains.anko.longToast
+import mbitsystem.com.currenciesviewer.utils.makeShortToast
 import timber.log.Timber
 import javax.inject.Inject
 
@@ -40,7 +40,7 @@ class MainActivity : BaseActivity(), MainView {
         presenter.bind(this)
     }
 
-    override fun getFilesIntent(): Observable<Unit> = Observable.just(Unit)
+    override fun getCurrienciesIntent(): Observable<Unit> = Observable.just(Unit)
 
     private fun renderLoadingState() {
         recycler_view.isEnabled = false
@@ -56,12 +56,13 @@ class MainActivity : BaseActivity(), MainView {
                 (adapter as MainAdapter).addItems(dataState.data)
                 listSubmited = false
             }
-            (adapter as MainAdapter).intentFilterAscendingPublisher.onNext(dataState.data!!)
+
+            (adapter as MainAdapter).intentGetCurrencies.onNext(dataState.data!!)
         }
     }
 
     private fun renderErrorState(error: String?) = error?.let {
-        longToast(getString(R.string.error_load_data) + it)
+        baseContext.makeShortToast(getString(R.string.error_load_data) + it)
         Timber.e("Error loading data: $it")
     }
 

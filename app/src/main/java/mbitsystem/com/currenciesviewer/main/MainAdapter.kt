@@ -34,9 +34,9 @@ class MainAdapter(private val recyclerView: RecyclerView? = null) :
         }
     }
 
-    val intentFilterAscendingPublisher = PublishSubject.create<List<Currency>>()
+    val intentGetCurrencies = PublishSubject.create<List<Currency>>()
 
-    fun getFilesAscendingIntent(): Observable<List<Currency>> = intentFilterAscendingPublisher
+    fun getCurriences(): Observable<List<Currency>> = intentGetCurrencies
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CurrencyHolder {
         val view =
@@ -52,14 +52,16 @@ class MainAdapter(private val recyclerView: RecyclerView? = null) :
 
     inner class CurrencyHolder(val view: View) : RecyclerView.ViewHolder(view) {
 
-        fun displayCurrencies() = getFilesAscendingIntent()
+        fun displayCurrencies() = getCurriences()
             .doOnNext { Timber.d("Intent: Display Curriences") }
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe {
                 it.forEach {
                     if (it.name == view.name.text && !view.value.hasFocus()) {
                         val calculatedValue = it.value * euroValue
-                        view.value.setText(calculatedValue.toString())
+                        val calculatedValueFormatted =
+                            view.context.getString(R.string.formatTwoDecimalPlaces, calculatedValue)
+                        view.value.setText(calculatedValueFormatted)
                     }
                 }
             }
@@ -67,7 +69,7 @@ class MainAdapter(private val recyclerView: RecyclerView? = null) :
         fun bind(position: Int) = with(view) {
             val currency = items[position]
             name.text = currency.name
-            value.setText(currency.value.toString())
+            value.setText(view.context.getString(R.string.formatTwoDecimalPlaces, currency.value))
             value.addTextChangedListener(geValueTextWatcher(currency.name))
             view.setOnClickListener(moveToTop())
         }
@@ -90,10 +92,11 @@ class MainAdapter(private val recyclerView: RecyclerView? = null) :
                 val currency = items.find { it.name == currencyName }
                 currency?.let {
                     val valueForOneEur = it.value
-                    //todo handle parse exception (empty string, dot, etc...)
-                    val updatedValue = s?.toString()?.toDouble()
-                    updatedValue?.let {
-                        euroValue = (updatedValue / valueForOneEur)
+                    if (!s.isNullOrBlank() && !(s.length == 1 && s.contains("."))) {
+                        val updatedValue = s.toString().toDouble()
+                        updatedValue.let {
+                            euroValue = (updatedValue / valueForOneEur)
+                        }
                     }
                 }
             }
